@@ -1,5 +1,16 @@
 p {
     font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: black !important;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 .icones {
@@ -34,14 +45,6 @@ p {
     background-color: #e9ecef;
     border-radius: .3rem;
     margin-bottom: 0px;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-p {
-    color: black !important;
 }
 
 .corPrimaria {
