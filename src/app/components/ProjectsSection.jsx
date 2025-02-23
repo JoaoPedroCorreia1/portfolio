@@ -50,7 +50,7 @@ const ProjectsSection = () => {
             variants={cardVariants}
             initial="initial"
             whileInView={"whileInView"}
-            transition={{ duration: 0.3, delay: index * 0.2}}
+            transition={{ duration: 0.3 }}
           >
             <ProjectCard
               key={project.id}
