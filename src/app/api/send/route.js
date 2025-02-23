@@ -3,7 +3,7 @@ import * as nodemailer from "nodemailer";
 
 const transporter = nodemailer.createTransport({
   service: "gmail",
-  secure: false,
+  secure: true,
   port: 25,
   auth: {
     user: process.env.USER,
@@ -23,16 +23,28 @@ export async function POST(req, res) {
     subject: subject,
     text: message
   };
-  
-  res = ""
 
-  await transporter.sendMail(mailOptions, function(error, info) {
-    if (error) {
-      res = error;
-    } else {
-      res = info.response;
-    }
+  await new Promise((resolve, reject) => {
+    transporter.verify(function (error, success) {
+      if (error) {
+        reject(error);
+      } else {
+        resolve(success);
+      }
+    });
   });
-  
-  return NextResponse.json({message: res});
+
+  await new Promise((resolve, reject) => {
+    transporter.sendMail(mailOptions, (err, info) => {
+      if (err) {
+        res = err
+        reject(err);
+      } else {
+        res = info.response
+        resolve(info);
+      }
+    });
+  });
+
+  return NextResponse.json({ message: res });
 }
