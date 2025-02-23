@@ -8,7 +8,7 @@ const projectsData = [
     id: 1,
     title: "Todo App",
     description: "Todo app developed with Next.js, React, Tailwind and MongoDB.",
-    image: "/images/projects/1.png",
+    image: "/images/projects/1.PNG",
     previewUrl: "https://joaopedrocorreia1-todo-app.vercel.app",
     gitUrl: "https://github.com/JoaoPedroCorreia1/todo-app"
   },
@@ -24,7 +24,7 @@ const projectsData = [
     id: 3,
     title: "Amazon Clone",
     description: "Amazon e-commerce clone developed with Javascript, HTML and CSS.",
-    image: "/images/projects/3.png",
+    image: "/images/projects/3.PNG",
     previewUrl: "https://joaopedrocorreia1-amazon-clone.vercel.app",
     gitUrl: "https://github.com/JoaoPedroCorreia1/amazon-clone"
   }
