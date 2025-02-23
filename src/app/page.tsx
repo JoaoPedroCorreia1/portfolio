@@ -1,6 +1,5 @@
 import ProfileSection from "./components/ProfileSection";
-import Navbar from "./components/Navbar";
-import AchievementsSection from "./components/AchiviementsSection"
+import Navbar from "./components/NavBar";
 import AboutSection from "./components/AboutSection";
 import ProjectsSection from "./components/ProjectsSection";
 import EmailSection from "./components/EmailSection";
