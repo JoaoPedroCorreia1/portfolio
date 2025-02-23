@@ -22,6 +22,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/components/AboutSection.jsx", "src/app/components/AchiviementsSection.jsx", "src/components/AboutSection.jsx", "src/components/AchiviementsSection.jsx"],
   "exclude": ["node_modules"]
 }
