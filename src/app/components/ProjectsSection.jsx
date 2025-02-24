@@ -8,7 +8,7 @@ const projectsData = [
     id: 1,
     title: "Netflix Clone",
     description: "Netflix clone developed with Next.js, React, Tailwind and Firebase.",
-    image: "/images/projects/1.png",
+    image: "/images/projects/1.PNG",
     previewUrl: "https://joaopedrocorreia1-netflix-clone.vercel.app/",
     gitUrl: "https://github.com/JoaoPedroCorreia1/netflix-clone"
   },
@@ -16,7 +16,7 @@ const projectsData = [
     id: 2,
     title: "Todo App",
     description: "Todo app developed with Next.js, React, Tailwind and MongoDB.",
-    image: "/images/projects/2.PNG",
+    image: "/images/projects/2.png",
     previewUrl: "https://joaopedrocorreia1-todo-app.vercel.app",
     gitUrl: "https://github.com/JoaoPedroCorreia1/todo-app"
   },
