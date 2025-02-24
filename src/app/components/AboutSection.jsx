@@ -75,7 +75,7 @@ const AboutSection = () => {
           <p className="text-base lg:text-lg">
             8º Semester Computer Engineering student at USJT (evening).
             Fluent English (TOEFL).
-            Searching for an IT intership.
+            Searching for an IT internship.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
