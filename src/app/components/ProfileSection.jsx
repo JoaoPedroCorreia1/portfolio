@@ -25,11 +25,7 @@ const ProfileSection = () => {
                 "João Pedro",
                 1000,
                 "Fullstack Dev",
-                1000,
-                "Mobile Dev",
-                1000,
-                "Data Analyst",
-                1000,
+                1000
               ]}
               wrapper="span"
               speed={50}

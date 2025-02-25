@@ -23,7 +23,7 @@ const projectsData = [
   {
     id: 3,
     title: "Finance App",
-    description: "Finances app developed with Angular, NodeJS and MySql.",
+    description: "Finances app developed with Angular, NodeJS and MySQL.",
     image: "/images/projects/3.PNG",
     previewUrl: "https://joaopedrocorreia1-finances-app.vercel.app",
     gitUrl: "https://github.com/JoaoPedroCorreia1/finances-app"
