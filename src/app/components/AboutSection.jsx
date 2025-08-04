@@ -69,7 +69,13 @@ const AboutSection = () => {
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.5 }}
         className="md:grid md:grid-cols-2 items-center py-4 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/about-image.jpg" width={500} height={500} className="mt-[-100px] rounded-[4px]" />
+        <Image 
+          src="/images/about-image.jpg"
+          alt="About Image"
+          width={500}
+          height={500}
+          className="mt-[-100px] rounded-[4px]"
+        />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full  min-h-[440px]">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
