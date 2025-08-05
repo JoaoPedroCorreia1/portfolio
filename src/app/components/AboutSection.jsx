@@ -63,7 +63,7 @@ const AboutSection = () => {
   };
 
   return (
-    <section className="text-white mt-[50px]" id="about">
+    <section className="text-detail-500 mt-[50px]" id="about">
       <motion.div
         initial={{ opacity: 0, x: -100 }}
         whileInView={{ opacity: 1, x: 0 }}
@@ -77,11 +77,11 @@ const AboutSection = () => {
           className="mt-[-100px] rounded-[4px]"
         />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full  min-h-[440px]">
-          <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
+          <h2 className="text-4xl font-bold text-primary-400 mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            8º Semester Computer Engineering student at USJT (evening).
-            Fluent English (TOEFL).
-            Searching for an IT internship.
+            Tech Lead and Fullstack Developer.
+            Experience in multiple startup projects with users.
+            Working on Scalable, Innovative and Smart Apps.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton

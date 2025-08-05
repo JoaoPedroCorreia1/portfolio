@@ -6,7 +6,7 @@ const transporter = nodemailer.createTransport({
   secure: true,
   port: 25,
   auth: {
-    user: process.env.EMAIL_USER,
+    user: process.env.EMAIL,
     pass: process.env.PASSWORD
   },
   tls: {
@@ -19,7 +19,7 @@ export async function POST(req, res) {
 
   const mailOptions = {
     from: email,
-    to: process.env.EMAIL_USER,
+    to: process.env.EMAIL,
     subject: subject,
     text: message
   };
