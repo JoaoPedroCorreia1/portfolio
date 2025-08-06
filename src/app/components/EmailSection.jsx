@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import GithubIcon from "../../../public/github-icon.svg";
-import LinkedinIcon from "../../../public/linkedin-icon.svg";
+import GithubIcon from "../../../public/github-icon.png";
+import LinkedinIcon from "../../../public/linkedin-icon.png";
 import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
