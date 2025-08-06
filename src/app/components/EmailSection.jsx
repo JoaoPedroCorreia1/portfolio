@@ -55,10 +55,10 @@ const EmailSection = () => {
         </p>
         <div className="socials flex flex-row gap-2">
           <Link href="https://github.com/JoaoPedroCorreia1" target="_blank">
-            <Image src={GithubIcon} alt="Github Icon" className="brightness-75 hover:brightness-50" />
+            <Image src={GithubIcon} alt="Github Icon" className="hover:brightness-125" />
           </Link>
           <Link href="https://www.linkedin.com/in/joao-pedro-correia-moura-da-silva" target="_blank">
-            <Image src={LinkedinIcon} alt="Linkedin Icon" className="brightness-75 hover:brightness-50" />
+            <Image src={LinkedinIcon} alt="Linkedin Icon" className="hover:brightness-125" />
           </Link>
         </div>
       </motion.div>
