@@ -10,9 +10,9 @@ const TAB_DATA = [
     id: "frontend",
     content: (
       <ul className="flex flex-col list-disc pl-2 gap-3">
-        <li>Next.js, React, Redux, Angular</li>
-        <li>Javascript, Typescript</li>
-        <li>HTML5, CSS3, Tailwind</li>
+        <li>Next.js, React, React Native, Vue.js, Angular</li>
+        <li>Online Payment, Web Design, UX/UI</li>
+        <li>Figma</li>
       </ul>
     ),
   },
@@ -21,21 +21,20 @@ const TAB_DATA = [
     id: "backend",
     content: (
       <ul className="flex flex-col list-disc pl-2 gap-3">
-        <li>Node.js, Django, Spring Boot</li>
-        <li>Python, Java, C#, Flutter, Kotlin, Golang</li>
-        <li>MySQL, PostgreSQL, MongoDB, Microservices</li>
-        <li>Chatbot, Cloud (AWS, GCP, Azure)</li>
+        <li>Node.js, Nest.js, .Net, Spring Boot</li>
+        <li>Microservices, Docker, Kubernetes, Linux</li>
+        <li>AWS, GCP, Azure</li>
       </ul>
     ),
   },
   {
-    title: "Data",
-    id: "data",
+    title: "Languages",
+    id: "languages",
     content: (
       <ul className="flex flex-col list-disc pl-2 gap-3">
-        <li>PowerBI, Tableau, Matlab, MatplotLib</li>
-        <li>Machine Learning (PyTorch, TensorFlow)</li>
-        <li>Excel, PowerPoint</li>
+        <li>Javascript, Typescript</li>
+        <li>HTML5, CSS3, Tailwind</li>
+        <li>Python, Java, C#, Flutter, Kotlin, Golang</li>
       </ul>
     ),
   },
@@ -45,8 +44,7 @@ const TAB_DATA = [
     content: (
       <ul className="flex flex-col list-disc pl-2 gap-3">
         <li>Agile</li>
-        <li>Gitlab, Gitflows</li>
-        <li>Linux (Ubuntu), Docker, Kubernetes</li>
+        <li>Gitlab</li>
       </ul>
     ),
   }
@@ -79,9 +77,8 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full  min-h-[440px]">
           <h2 className="text-4xl font-bold text-primary-400 mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            Tech Lead and Fullstack Developer.
-            Experience in multiple startup projects with users.
-            Working on Scalable, Innovative and Smart Apps.
+            Fullstack Developer.
+            Currently, working on web and mobile projects.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
@@ -99,11 +96,11 @@ const AboutSection = () => {
               Backend{" "}
             </TabButton>
             <TabButton
-              selectTab={() => handleTabChange("data")}
-              active={tab === "data"}
+              selectTab={() => handleTabChange("languages")}
+              active={tab === "languages"}
             >
               {" "}
-              Data{" "}
+              Languages{" "}
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("other")}
