@@ -11,8 +11,8 @@ const TAB_DATA = [
     content: (
       <ul className="flex flex-col list-disc pl-2 gap-3">
         <li>Next.js, React, React Native, Vue.js, Angular</li>
-        <li>Online Payment, Web Design, UX/UI</li>
-        <li>Figma</li>
+        <li>HTML5, CSS3, Tailwind, Figma</li>
+        <li>Online Payment, UX/UI</li>
       </ul>
     ),
   },
@@ -33,7 +33,6 @@ const TAB_DATA = [
     content: (
       <ul className="flex flex-col list-disc pl-2 gap-3">
         <li>Javascript, Typescript</li>
-        <li>HTML5, CSS3, Tailwind</li>
         <li>Python, Java, C#, Flutter, Kotlin, Golang</li>
       </ul>
     ),
