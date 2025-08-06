@@ -47,7 +47,7 @@ const ProfileSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
-          <div className="rounded-full bg-primary-200 w-[200px] h-[200px] lg:w-[345px] lg:h-[345px] relative">
+          <div className="rounded-full w-[200px] h-[200px] lg:w-[345px] lg:h-[345px] relative">
             <Image
               src="/images/profile-image.jpg"
               alt="profile image"
