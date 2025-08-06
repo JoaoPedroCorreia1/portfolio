@@ -31,7 +31,7 @@ const projectsData = [
   {
     id: 4,
     title: "Finance Advisor",
-    description: "Finances app with custom AI Finance Advisor, developed with React Native, Nodejs and MongoDB",
+    description: "Finance app with AI Advisor, developed with React Native, Nodejs and MongoDB",
     image: "/images/projects/4.png",
     previewUrl: "",
     gitUrl: ""
