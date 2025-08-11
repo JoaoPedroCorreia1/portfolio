@@ -73,7 +73,7 @@ const AboutSection = () => {
           height={500}
           className="mt-[-100px] rounded-[4px]"
         />
-        <div className="mt-4 md:mt-0 text-left flex flex-col h-full  min-h-[440px]">
+        <div className="mt-4 ml-[35px] text-left flex flex-col h-full  min-h-[440px]">
           <h2 className="text-4xl font-bold text-primary-400 mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
             Fullstack Developer.
